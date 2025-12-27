@@ -73,21 +73,12 @@ spring.jpa.show-sql=true
 The `ProductController` handles incoming HTTP requests.
 
 | Method | Endpoint | Description |
-| --- | --- | --- |
-| POST | `/api/v1/products` | Create a new product 
-
-| GET | `/api/v1/products/{id}` | Retrieve a product by ID 
-
- |
-| GET | `/api/v1/products` | List all products 
-
- |
-| PUT | `/api/v1/products/{id}` | Update an existing product 
-
- |
-| DELETE | `/api/v1/products/{id}` | Remove a product 
-
- |
+| :--- | :--- | :--- |
+| **POST** | `/api/v1/products` | Create a new product |
+| **GET** | `/api/v1/products/{id}` | Retrieve a product by ID |
+| **GET** | `/api/v1/products` | List all products |
+| **PUT** | `/api/v1/products/{id}` | Update an existing product |
+| **DELETE** | `/api/v1/products/{id}` | Remove a product |
 
 ### 6. Exception Handling
 
