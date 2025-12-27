@@ -76,7 +76,6 @@ The `ProductController` handles incoming HTTP requests.
 | --- | --- | --- |
 | POST | `/api/v1/products` | Create a new product 
 
- |
 | GET | `/api/v1/products/{id}` | Retrieve a product by ID 
 
  |
