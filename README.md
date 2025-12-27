@@ -1,4 +1,4 @@
-![Postman 1](https://github.com/user-attachments/assets/67e5a69a-8845-4053-86cf-436672cb9c96)# Task 2 - First REST API Application
+### Task 2 - First REST API Application
 
 ## Project Overview
 
