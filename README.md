@@ -1,4 +1,4 @@
-### Task 2 - First REST API Application
+# Task 2 - First REST API Application
 
 ## Project Overview
 
