@@ -143,7 +143,8 @@ The project follows a modular package structure:
   
   ![ProductController](https://github.com/user-attachments/assets/3610aa29-56ce-4574-88eb-9ab3549a7a67)
   ![ProductRequest](https://github.com/user-attachments/assets/393b0a76-ab45-449d-8740-5df8bd5c6929)
-  ![ProductRequest](https://github.com/user-attachments/assets/e6e4bc65-10df-41b9-88ed-bf9b187331c0)
+  ![ProductResponse](https://github.com/user-attachments/assets/a72c6929-2ec3-4457-9ea8-f7a78414a706)
+
 
   
 
