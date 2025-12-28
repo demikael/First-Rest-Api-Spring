@@ -255,6 +255,21 @@ We transitioned from a temporary HashMap to a real (in-memory) **H2 Database**.
 
    
 
+### Answer to the 2.G Challenge Question
+
+**Question:** "How is it possible that our ProductService class does not throw errors if it uses methods not implemented in the ProductRepository class?"
+
+**Answer:**
+This is possible because the `ProductRepository` interface now extends **`JpaRepository<Product, Long>`**. By doing so, it inherits a wide range of standard CRUD methods (such as `save()`, `findById()`, `findAll()`, and `deleteById()`) directly from the Spring Data JPA framework.
+
+![Answer 1](https://github.com/user-attachments/assets/2b88112c-4145-4d5a-b013-b9103d2c1562)
+
+
+
+At runtime, Spring uses a **dynamic proxy** to provide a concrete implementation of these methods. This allows the `ProductService` to call them seamlessly even though our specific interface contains no code of its own.
+
+![Answer 2](https://github.com/user-attachments/assets/5766db40-f558-46bf-b221-de1a2155f4a0)
+
 
 
 ### 2.H: Final Tests
