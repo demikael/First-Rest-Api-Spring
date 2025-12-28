@@ -274,4 +274,7 @@ At runtime, Spring uses a **dynamic proxy** to provide a concrete implementation
 
 ### 2.H: Final Tests
 
+![2H (Post)](https://github.com/user-attachments/assets/511498cb-e3c5-4b6b-9e05-83ae6ac42e7a)
+![2H (Update)](https://github.com/user-attachments/assets/bb2ca190-67b4-4df3-a8f5-86a5ff71b41f)
+![2H (Delete)](https://github.com/user-attachments/assets/03190efd-ecd4-4755-8156-a62f88f93c17)
 ![2H](https://github.com/user-attachments/assets/9aa710d0-d601-414a-ac7f-cef8a1933f73)
